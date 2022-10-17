@@ -5,6 +5,8 @@ body[data-theme='dark'] {
   --border-c: 1px solid rgba(255, 255, 255, 0.2);
   --shadow-box: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
   --text-card: rgba(255, 255, 255, 0.5);
+  --bg-card: rgba(255, 255, 255,.5);
+  --arrow-c: #000;
 }
 body[data-theme='light'] {
   --body-c: rgb(163, 161, 161);
@@ -13,6 +15,8 @@ body[data-theme='light'] {
   --border-c: 1px solid rgba(255, 255, 255, 1);
   --shadow-box: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
   --text-card: rgba(0, 0, 0, 0.5);
+  --bg-card: rgba(32, 32, 35,.5);
+  --arrow-c: #fff;
 }
 body {
   background-color: var(--body-c);

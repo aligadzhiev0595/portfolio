@@ -4,7 +4,7 @@ export const data = [
     title: 'Portfolio',
     img: 'portfolio',
     href: 'https://aligadzhiev0595.github.io/my-portfolio/',
-    stack: 'HTML, CSS/SCSS, Javascript,JQuery, Fontawesome, Bootstrap.',
+    stack: 'HTML, CSS/SCSS, Javascript, JQuery, Fontawesome, Bootstrap.',
     descr: 'Exam work on the course HTML layout designer.',
     created: 'January 1, 2021.',
   },
@@ -69,7 +69,7 @@ export const data = [
   },
   {
     id: '8',
-    title: 'Posting app',
+    title: 'Post platform',
     img: 'post',
     href: 'https://github.com/aligadzhiev0595/nextjs-post',
     stack:
@@ -80,7 +80,7 @@ export const data = [
   },
   {
     id: '9',
-    title: 'Aloe online store',
+    title: 'Aloe e-commerce',
     img: 'aloe',
     href: 'https://aloe-kg.netlify.app/',
     stack:

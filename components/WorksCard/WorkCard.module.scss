@@ -32,6 +32,8 @@
       }
       a {
         color: var(--text-card);
+        text-decoration: underline;
+        text-underline-offset: 7px;
       }
     }
   }
