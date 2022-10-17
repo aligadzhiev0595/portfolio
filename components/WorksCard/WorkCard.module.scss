@@ -1,0 +1,56 @@
+.workCard {
+  padding: 70px 0 10px 0;
+  h1 {
+    color: var(--color-c);
+    font-size: 18px;
+  }
+  .wrapper {
+    margin-top: 20px;
+    background-color: var(--wrapper-c);
+    box-shadow: var(--shadow-box);
+    border: var(--border-c);
+    border-radius: 5px;
+  }
+  .wrapperImg {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    object-fit: contain;
+    height: auto;
+  }
+  .wrapperInfo {
+    border-radius: 5px;
+    padding: 20px 15px;
+    p {
+      font-size: 18px;
+      margin: 15px 0;
+      color: var(--color-c);
+      span {
+        color: var(--text-card);
+      }
+      a {
+        color: var(--text-card);
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .workCard {
+    padding: 60px 0 0 0;
+    .wrapperInfo {
+      p {
+        font-size: 15px;
+      }
+      a {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+      }
+    }
+  }
+}

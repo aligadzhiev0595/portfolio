@@ -1,0 +1,76 @@
+.wrapper {
+  margin-top: 30px;
+  .wrapperSocial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .social {
+    position: relative;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .socialSvg {
+    transition: 0.4s linear;
+    color: var(--color-c);
+    width: 100%;
+    height: 100%;
+    fill: var(--color-c);
+  }
+  .social::before,
+  .social::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: -3;
+    top: 0;
+    transition: 0.4s linear;
+  }
+  .social:hover::after {
+    border-radius: 50%;
+    border-left: 4px solid;
+    border-right: 4px solid;
+    transform: skewY(-20deg);
+    color: var(--color-c);
+  }
+  .social:hover::before {
+    border-radius: 50%;
+    border-left: 4px solid;
+    border-right: 4px solid;
+    transform: skewX(20deg);
+    color: var(--color-c);
+  }
+  .socialTooltip {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    color: var(--color-c);
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  .social:hover .socialTooltip {
+    top: -35px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .socialLink {
+    z-index: 8;
+  }
+}

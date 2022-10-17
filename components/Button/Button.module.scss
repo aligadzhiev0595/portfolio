@@ -1,0 +1,14 @@
+.button {
+  background-color: var(--wrapper-c);
+  box-shadow: var(--shadow-box);
+  border: var(--border-c);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 5px;
+  .buttonTheme {
+    fill: var(--color-c);
+  }
+}

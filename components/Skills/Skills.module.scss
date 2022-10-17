@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  .wrapperItem {
+    color: var(--color-c);
+    background-color: var(--wrapper-c);
+    box-shadow: var(--shadow-box);
+    border: var(--border-c);
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0;
+    user-select: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .wrapper {
+    justify-content: center;
+    .wrapperItem{
+      margin: 5px 5px 5px 0;
+    }
+  }
+}

@@ -1,0 +1,139 @@
+.header {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 1015px;
+  width: 100%;
+  padding: 10px 0;
+  background-color: var(--wrapper-c);
+  box-shadow: var(--shadow-box);
+  border: var(--border-c);
+  border-radius: 5px;
+
+  .nav {
+    .navList {
+      display: flex;
+      margin-bottom: 0;
+      line-height: 35px;
+    }
+    .navItem {
+      color: var(--color-c);
+      margin-right: 15px;
+      .activeRoute {
+        background-color: var(--wrapper-c);
+        box-shadow: var(--shadow-box);
+        border: var(--border-c);
+        padding: 7px;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    position: fixed;
+    transform: translateX(-50%);
+    box-shadow: none;
+    top: 0;
+    background-color: var(--wrapper-c);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    &.active {
+      display: none;
+    }
+    .nav {
+      display: none;
+      position: fixed;
+      top: 58px;
+      right: 0;
+      &.active {
+        display: block;
+        padding: 20px;
+        width: 100%;
+        height: 100vh;
+        background-color: var(--body-c);
+        border: var(--border-c);
+      }
+      .navList {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 250px;
+      }
+      .navItem {
+        margin-right: 0;
+        margin-bottom: 10px;
+      }
+    }
+    .cleanFlex {
+      justify-content: start;
+    }
+    .burger {
+      position: fixed;
+      top: 29px;
+      right: 10px;
+      transform: translateY(-50%);
+      width: 35px;
+      height: 35px;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      border: 1px solid;
+      box-shadow: var(--shadow-box);
+      border: var(--border-c);
+    border-radius: 5px;
+
+      &.active {
+        .burgerLine {
+          background: none;
+          transition: 0.1s ease;
+          &::before {
+            transform: rotate(135deg);
+            top: 0;
+            transition: 0.6s ease;
+          }
+
+          &::after {
+            transform: rotate(45deg);
+            bottom: 0;
+            transition: 0.6s ease;
+          }
+        }
+      }
+
+      .burgerLine {
+        position: relative;
+        width: 25px;
+        height: 2px;
+        background-color: var(--color-c);
+        left: 50%;
+        transform: translateX(-50%);
+
+        &::before {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-color: var(--color-c);
+
+          top: 7px;
+          left: 0;
+          transition: 0.5s;
+        }
+
+        &::after {
+          content: '';
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          background-color: var(--color-c);
+
+          bottom: 7px;
+          left: 0;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+}
