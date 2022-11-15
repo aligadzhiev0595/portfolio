@@ -27,17 +27,11 @@
       justify-content: center;
     }
   }
-  .wrapperBtn {
-    max-width: 200px;
-    display: block;
-    text-align: center;
+  .wrapperDescr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--color-c);
-    background-color: var(--wrapper-c);
-    box-shadow: var(--shadow-box);
-    border: var(--border-c);
-    padding: 10px;
-    margin: 0 auto 15px auto;
-    border-radius: 5px;
   }
 }
 

@@ -6,33 +6,33 @@ export const data = [
     title: 'CSS3/SCSS',
   },
   {
+    title: 'Responsive Design',
+  },
+  {
+    title: 'BEM - methodology',
+  },
+  {
     title: 'JavaScript / TypeScript',
   },
   {
     title: 'React / Redux / NextJs',
   },
   {
+    title: 'REST / HTTP',
+  },
+  {
     title: 'NodeJs / MongoDB',
   },
   {
-    title: 'cmd + C / cmd + V',
+    title: 'Styled Components',
   },
   {
-    title: 'Git',
-  },
-  {
-    title: 'Styled Components / MUI',
-  },
-  {
-    title: 'Tailwind',
+    title: 'Material UI',
   },
   {
     title: 'Bitbucket / Jira',
   },
   {
-    title: 'REST / HTTP',
-  },
-  {
-    title: 'Responsive Design',
+    title: 'Git',
   },
 ]

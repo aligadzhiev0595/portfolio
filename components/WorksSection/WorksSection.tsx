@@ -32,7 +32,7 @@ export const WorksSection = ({ data }: WorksProps) => {
                 </Link>
               </div>
               <Link href={`/works/${item.id}`}>
-                <a className={s.wrapperBtn}>{item.title}</a>
+                <a className={s.wrapperDescr}>{item.title}</a>
               </Link>
             </div>
           ))}

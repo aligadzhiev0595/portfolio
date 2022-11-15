@@ -4,7 +4,7 @@ export const data = [
     title: 'Portfolio',
     img: 'portfolio',
     href: 'https://aligadzhiev0595.github.io/my-portfolio/',
-    stack: 'HTML, CSS/SCSS, Javascript, JQuery, Fontawesome, Bootstrap.',
+    stack: 'HTML, CSS/SCSS, Javascript, JQuery, Bootstrap.',
     descr: 'Exam work on the course HTML layout designer.',
     created: 'January 1, 2021.',
   },
@@ -20,46 +20,18 @@ export const data = [
   },
   {
     id: '3',
-    title: 'Weather',
-    img: 'weather',
-    href: 'https://weather-app-tuesday.herokuapp.com/',
-    stack: 'React, Axios.',
-    descr: 'Training project for the course Front-end developer.',
-    created: 'March 11, 2021.',
-  },
-  {
-    id: '4',
-    title: 'Todo v1.0',
-    img: 'todo1',
-    href: 'https://app-todolist-it.herokuapp.com/',
-    stack: 'React, Fontawesome.',
-    descr: 'Training project for the course Front-end developer.',
-    created: 'March 23, 2021.',
-  },
-  {
-    id: '5',
-    title: 'Todo v2.0',
-    img: 'todo2',
-    href: 'https://todo-react-redux-v2.herokuapp.com/',
-    stack: 'React, Redux.',
-    descr: 'Training project for the course Front-end developer.',
-    created: 'April 1, 2021.',
-  },
-
-  {
-    id: '6',
-    title: 'Womazing',
+    title: 'Womazing e-commerce',
     img: 'womazing',
-    href: 'https://clothing-store-theta.vercel.app/',
+    href: 'https://github.com/aligadzhiev0595/womazing-e-commerce',
     stack:
-      'React, Axios, Json-Server, i18Next, Swiper, Macro-Styles, React-Icons, React-InputMask, Node-Sass.',
+      'React,Redux-Toolkit,TypeScript Axios, Json-Server, i18Next, Swiper, Macro-Styles, React-Icons, React-InputMask, Sass.',
     descr:
       'Training project created to develop skills and work with new libraries.',
     created: 'December 17, 2021.',
   },
   {
-    id: '7',
-    title: 'Todo v3.0',
+    id: '4',
+    title: 'TodoList',
     img: 'todo3',
     href: 'https://todo-react-redux-type-script.vercel.app/',
     stack:
@@ -68,10 +40,10 @@ export const data = [
     created: 'March 12, 2022.',
   },
   {
-    id: '8',
+    id: '5',
     title: 'Post platform',
     img: 'post',
-    href: 'https://github.com/aligadzhiev0595/nextjs-post',
+    href: 'https://github.com/aligadzhiev0595/posts-platform',
     stack:
       'React, TypeScript,Axios,Styled-Components , Macro-Styles, Sass,Prettier,Eslint, NodeJs/Express, MongoDB,Cors,Nodemoon,Concurrently.',
     descr:
@@ -79,7 +51,7 @@ export const data = [
     created: 'May 3, 2022.',
   },
   {
-    id: '9',
+    id: '6',
     title: 'Aloe e-commerce',
     img: 'aloe',
     href: 'https://aloe-kg.netlify.app/',
